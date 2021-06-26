@@ -17,7 +17,6 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 st.set_option('deprecation.showPyplotGlobalUse', False)
     
-
 def load_pickle_models():
     # Load NN model
     loaded_model = tf.keras.models.load_model('Final_Model_Pkl.h5')
